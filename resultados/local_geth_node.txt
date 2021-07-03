@@ -1,0 +1,85 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'local-fork'
+> Network id:      4
+> Block gas limit: 10006485 (0x98afd5)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > block number:        8854510
+   > block timestamp:     1625054518
+   > account:             0x4A7e8952B8BEb45Cc94484a39EaD5821c47D3D91
+   > balance:             0.098309028005457072
+   > gas used:            153502 (0x2579e)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000307004 ETH
+
+   -------------------------------------
+   > Total cost:         0.000307004 ETH
+
+
+2_mig_g1.js
+===========
+> Migrating CBOR and Witnet into local-fork network
+
+   Replacing 'BN256G1'
+   -------------------
+   > block number:        8854512
+   > block timestamp:     1625054519
+   > account:             0x4A7e8952B8BEb45Cc94484a39EaD5821c47D3D91
+   > balance:             0.098078628005457072
+   > gas used:            87921 (0x15771)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000175842 ETH
+
+   -------------------------------------
+   > Total cost:         0.000175842 ETH
+
+
+3_mig_g2.js
+===========
+> Migrating CBOR and Witnet into local-fork network
+
+   Replacing 'BN256G2'
+   -------------------
+   > block number:        8854514
+   > block timestamp:     1625054519
+   > account:             0x4A7e8952B8BEb45Cc94484a39EaD5821c47D3D91
+   > balance:             0.097747394005457072
+   > gas used:            138338 (0x21c62)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000276676 ETH
+
+   -------------------------------------
+   > Total cost:         0.000276676 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.000759522 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'local'
+> Network id:      4
+> Block gas limit: 10000000 (0x989680)
+

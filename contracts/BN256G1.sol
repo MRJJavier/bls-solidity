@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: MIT
+// solium-disable security/no-assign-params
 
-pragma solidity >=0.5.3 <0.7.0;
+pragma solidity >=0.5.3 <0.9.0;
 
-import "elliptic-curve-solidity/contracts/EllipticCurve.sol";
+import "../contracts/EllipticCurve.sol";
 
 
 /**
@@ -29,7 +30,7 @@ library BN256G1 {
   // Order of the curve
   uint256 internal constant NN = 0x30644e72e131a029b85045b68181585d2833e84879b9709143e1f593f0000001;
 
-  /// This is 0xf1f5883e65f820d099915c908786b9d3f58714d70a38f4c22ca2bc723a70f263, the last mulitple of the modulus before 2^256
+  // This is 0xf1f5883e65f820d099915c908786b9d3f58714d70a38f4c22ca2bc723a70f263, the last mulitple of the modulus before 2^256
   uint256 internal constant LAST_MULTIPLE_OF_PP_LOWER_THAN_2_256 = 0xf1f5883e65f820d099915c908786b9d3f58714d70a38f4c22ca2bc723a70f263;
 
 

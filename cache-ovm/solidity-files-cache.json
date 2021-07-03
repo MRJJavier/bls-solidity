@@ -1,0 +1,263 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/mrjjavier/Escritorio/opsie/bls-solidity/contracts/BN256G1.sol": {
+      "lastModificationDate": 1623678748580,
+      "contentHash": "0ec4306b8fcabb2cd9eaa48b40022452",
+      "sourceName": "contracts/BN256G1.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../contracts/EllipticCurve.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.3 <0.9.0"
+      ],
+      "artifacts": [
+        "BN256G1"
+      ]
+    },
+    "/home/mrjjavier/Escritorio/opsie/bls-solidity/contracts/EllipticCurve.sol": {
+      "lastModificationDate": 1623678748580,
+      "contentHash": "a7bd36ddd14e302b4b415fee1f772a8f",
+      "sourceName": "contracts/EllipticCurve.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.3 <0.9.0"
+      ],
+      "artifacts": [
+        "EllipticCurve"
+      ]
+    },
+    "/home/mrjjavier/Escritorio/opsie/bls-solidity/test/BN256G1Helper.sol": {
+      "lastModificationDate": 1623681405152,
+      "contentHash": "b7359fe5ef3138e32cf112a3be767821",
+      "sourceName": "test/BN256G1Helper.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../contracts/BN256G1.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.3 <0.9.0"
+      ],
+      "artifacts": [
+        "BN256G1Helper"
+      ]
+    },
+    "/home/mrjjavier/Escritorio/opsie/bls-solidity/contracts/BN256G2.sol": {
+      "lastModificationDate": 1623678748580,
+      "contentHash": "2e801bcbd230df28568ff9767f773a0e",
+      "sourceName": "contracts/BN256G2.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.3 <0.9.0"
+      ],
+      "artifacts": [
+        "BN256G2"
+      ]
+    },
+    "/home/mrjjavier/Escritorio/opsie/bls-solidity/test/BN256G2Helper.sol": {
+      "lastModificationDate": 1623681411412,
+      "contentHash": "96414b1ae2ce75f599f7169b25d45e64",
+      "sourceName": "test/BN256G2Helper.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../contracts/BN256G2.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.3 <0.9.0"
+      ],
+      "artifacts": [
+        "BN256G2Helper"
+      ]
+    },
+    "/home/mrjjavier/Escritorio/opsie/bls-solidity/contracts/Migrations.sol": {
+      "lastModificationDate": 1623678748580,
+      "contentHash": "e88670bc181e2adbd814260b20b15295",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.21 <0.9.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    }
+  }
+}

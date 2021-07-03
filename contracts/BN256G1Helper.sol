@@ -1,6 +1,6 @@
-pragma solidity ^0.6.0;
+pragma solidity >=0.5.3 <0.9.0;
 
-import "../../contracts/BN256G1.sol";
+import "../contracts/BN256G1.sol";
 
 /**
  * @title Test Helper for the BN256G1 contract

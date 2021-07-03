@@ -1,4 +1,4 @@
-const BN256G1Helper = artifacts.require("BN256G1Helper")
+const BN256G1Helper = artifacts.require("BN256G1Helper");
 
 contract("EcGasHelper - Gas consumption analysis", accounts => {
   // /////////////////////////////////////////// //

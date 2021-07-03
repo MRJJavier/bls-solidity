@@ -1,0 +1,94 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'arbitrum'
+> Network id:      421611
+> Block gas limit: 287862893 (0x1128706d)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xea3d08f3f15506f79c6484f1f62c0d121cd7d4179c7d0947d8251df0a1d8818d
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x4B2BF76acffA3b81081B4eCE12922Df35F53E341
+   > block number:        336217
+   > block timestamp:     1625054414
+   > account:             0x81183C9C61bdf79DB7330BBcda47Be30c0a85064
+   > balance:             0.922751259571538062
+   > gas used:            1625077 (0x18cbf5)
+   > gas price:           0.295864074 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000480801901783698 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000480801901783698 ETH
+
+
+2_mig_g1.js
+===========
+> Migrating CBOR and Witnet into arbitrum network
+
+   Replacing 'BN256G1'
+   -------------------
+   > transaction hash:    0x0223e23f279cf41d6e4132e53383bef564035a0ce6d66a7ba8200edd4af59de4
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xa064B0075b13a6F82277818CBA68Ec0CD3EB83a8
+   > block number:        336224
+   > block timestamp:     1625054414
+   > account:             0x81183C9C61bdf79DB7330BBcda47Be30c0a85064
+   > balance:             0.922347122410942475
+   > gas used:            1898672 (0x1cf8b0)
+   > gas price:           0.295864074 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000561748833109728 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000561748833109728 ETH
+
+
+3_mig_g2.js
+===========
+> Migrating CBOR and Witnet into arbitrum network
+
+   Replacing 'BN256G2'
+   -------------------
+   > transaction hash:    0x54f9bf842e0f3c430c9bbcdc4dc410bad322df82420926adcd78f8347a189c46
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x935E1859aC1E7311625759BFce8418998113fBA6
+   > block number:        336229
+   > block timestamp:     1625054414
+   > account:             0x81183C9C61bdf79DB7330BBcda47Be30c0a85064
+   > balance:             0.921674482389652094
+   > gas used:            3913720 (0x3bb7f8)
+   > gas price:           0.295864074 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00115792914369528 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00115792914369528 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.002200479878588706 ETH
+
+

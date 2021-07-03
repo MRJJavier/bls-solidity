@@ -26,6 +26,7 @@
     "url": "https://github.com/witnet/bls-solidity/issues"
   },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0",
     "elliptic-curve-solidity": "0.2.2"
   },
   "homepage": "https://github.com/witnet/bls-solidityy#readme",
@@ -43,6 +44,7 @@
     "gas-analysis": "truffle test ./benchmark/BN256G1Helper.sol ./benchmark/gas_g1.js && truffle test ./benchmark/BN256G2Helper.sol ./benchmark/gas_g2.js"
   },
   "devDependencies": {
+    "arb-ethers-web3-bridge": "^0.7.3",
     "eslint": "^6.6.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
